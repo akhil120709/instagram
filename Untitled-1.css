@@ -1,0 +1,33 @@
+*{
+    background-color: white;
+}
+
+.container{
+    background-image: linear-gradient(rgb(255, 0, 187),red,yellow);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    align-items: center;
+    position: absolute;
+    display: flex;
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 12px;
+    color: white;
+    left: 6px;
+    border-top: 7px;
+    position: relative;
+    align-items: center;
+}
+.dot{
+    height: 5px;
+    width: 5px;
+    border-radius: 9px;
+    top: -18px;
+    right: 7px;
+    position: relative;
+    background-color: white;
+}
